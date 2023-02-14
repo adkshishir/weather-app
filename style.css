@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.weather-app {
+  box-shadow: 3px 3px 3px #ababab;
+  width: fit-content;
+  padding: 2rem;
+  font-size: 1.5rem;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  border-radius: 1rem;
+}
+.weather-app:hover {
+  box-shadow: 3px 3px 3px #ababab, -3px -3px 3px #ababab;
+}
+h1 {
+  padding: 1rem;
+  text-shadow: 2px 2px 2px #ababab;
+}
+button {
+  width: fit-content;
+  margin: 2rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  justify-self: center;
+  background-color: #0000006f;
+  color: white;
+  border-radius: 0.3rem;
+  border: 4px solid rgba(0, 0, 255, 0.441);
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.723);
+  border: 4px solid rgba(138, 138, 241, 0.923);
+}
+input {
+  height: 100%;
+  font-size: 1rem;
+  padding: 0.7rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  border: 3px solid palegreen;
+}
+input:focus {
+  border: 3px solid blue;
+}
+.city-name {
+  background-color: rgba(0, 0, 0, 0.542);
+  color: white;
+  width: 111%;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  display: flex;
+  padding: 0.4rem;
+  text-align: center;
+}
+.result {
+  justify-content: center;
+  margin: auto;
+}
